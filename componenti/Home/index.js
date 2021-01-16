@@ -1,5 +1,5 @@
 import { Header, Button, Container } from "semantic-ui-react";
-import HeaderImg from "../../assets/header_bg.svg";
+import HeaderImg from "../../public/static/assets/header_bg.svg";
 import styles from "./style.module.css";
 import Link from "next/link";
 

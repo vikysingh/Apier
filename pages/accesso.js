@@ -1,4 +1,6 @@
-import Form from "../componenti/Accesso"
+import dynamic from "next/dynamic"
+
+const Form = dynamic(() => import("../componenti/Accesso"))
 
 const accesso = () => <Form />
 
