@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic"
 
-const Apps = dynamic(() => "../componenti/Apps")
+const Apps = dynamic(() => import("../componenti/Apps"))
 
 const apps = () => <Apps />
 
