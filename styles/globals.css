@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.account_form__container {
+  padding-top: 10%;
+}
+
+.account_form{
+  background-color: #eee;
+  width: 40%;
+  margin: auto;
+  /* margin-top: 10%; */
+  padding: 20px 15px;
+}
+
+.account_form__submit_btn {
+  margin-top: 30px !important;
+}
+
+@media (max-width: 600px) {
+  .account_form__container {
+      padding-top: 15vh;
+  }
+  
+  .account_form {
+      width: 90%;
+  }
+}
