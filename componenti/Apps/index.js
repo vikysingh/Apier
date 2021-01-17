@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const { Row, Column } = Grid;
 
-const AppCard = () => (
-  <Link href="#">
+const AppCard = ({id}) => (
+  <Link href={`/apps/${id}`}>
     <Card
       className={styles.apps__app_card}
       image="https://react.semantic-ui.com/images/avatar/large/elliot.jpg"
@@ -44,7 +44,7 @@ const index = () => {
         <Column width={16}>
           <main className={styles.apps__app_container}>
             {list.map((_) => (
-                <AppCard key={_} />
+                <AppCard key={_} id={_} />
             ))}
           </main>
         </Column>
