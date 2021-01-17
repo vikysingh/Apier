@@ -1,0 +1,17 @@
+.app_info {
+  padding-top: 5% !important;
+  padding-left: 5% !important;
+}
+
+.app_info__upper__first_col img {
+  width: 80%;
+}
+
+.app_info__header {
+  font-size: 3rem !important;
+}
+
+.app_info__descrizione {
+  width: 90%;
+  line-height: 2rem;
+}
